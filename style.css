@@ -1,0 +1,205 @@
+.product{
+    padding: 70px 0;
+}
+.pr-grey {
+    background: rgb(217, 244, 255);
+}
+.product__btn{
+    border: none;
+    border-radius: 7px;
+    background: rgb(255, 204, 108);
+    padding: 7px 30px;
+    transition: 0.2s;
+}
+.product__btn:hover{
+    box-shadow: 0 0 4px orange;
+}
+
+.wrapper{
+    background: #0000007f;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.modal1 {
+    background: white;
+    border-radius: 4px;
+    padding: 20px;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.close{
+   
+    border: none;
+    background: rgba(5, 5, 5, 0.2);
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;position: absolute;top: 0;right: 0;
+    color: white;
+    font-size: 22px;
+    transition: 0.2s;
+}
+.close:hover{
+   background: rgba(5, 5, 5, 0.4);
+}
+header{
+    min-height: 100vh;
+    background-image: url(original.jpg);
+    background-size: cover;
+    color: white;
+    
+}
+.header-wrapper{
+    background: linear-gradient(rgba(0, 0, 0, 0.774), rgba(0, 0, 0, 0.281));
+    min-height: 100vh;
+    padding: 40px;
+}
+nav{
+   display: flex;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position: relative;
+}
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.nav-link{
+    padding: 7px 20px;
+    transition: 0.2s;
+}
+.nav-link:hover{
+    background: skyblue;
+}
+#header-title {
+font-size: 60px;
+max-width: 400px;
+margin-top: 100px;
+margin-left: 100px;
+}
+#header-text{
+    width: 350px;
+    margin-left: 100px;
+}
+.form_{
+    height: 100vh;
+    width: 35vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    padding: 40px;
+
+    background-image: url('https://png.pngtree.com/png-clipart/20230429/original/pngtree-torn-edge-set-ripped-paper-vector-illustration-png-image_9123289.png');
+    background-size: 210%;
+    background-position-x: -10px;
+    background-position-y: -400px;
+
+}
+.form-text{
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+}
+.form-input{
+    padding: 7px;
+}
+.modalwrapper{
+    background: #0000007f;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modalimg{
+    height: 90%;
+}
+.closewrapper{
+    background:   rgba(0, 0, 0, 0.281);
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    height: 35px;
+    width: 35px;
+    color: white;
+    transition: 0.2s;
+}
+.closewrapper:hover{
+    background:  rgba(0, 0, 0, 0.452);
+}
+.rezolt{
+    color: #3ea839;
+    display: none;
+    text-align: center;
+}
+.form_body{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+
+.form-text-big {
+    display: none;
+}
+
+.form2body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer {
+    background: #00031f;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-block{
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+.form-btn{
+    background: grey;
+    border-radius: 7px;
+    border: none;
+    box-shadow: black;
+    color: white;
+    transition: 0.2s;
+}
+.form-btn:hover{
+    background: rgb(153, 153, 153);
+}
